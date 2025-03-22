@@ -1,0 +1,104 @@
+/* Applying a background color to the entire page */
+body {
+    background-color: #f4f4f4; /* Light gray background */
+    background-image: url('images/background.jpg'); /*The path of my image */
+    background-size: cover;  /* Ensuring the image covers the entire page */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    background-attachment: fixed; /* Keeps the background in place while scrolling */
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Adding padding around the main content */
+main {
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Changing the font for headings to a serif font */
+h1, h2 {
+    font-family: "Georgia", serif;
+    color: #333;
+    font-weight: bold; /* Makes heading text bold */
+}
+
+/* Adding size adjustments for h1 */
+h1 {
+    font-size: 36px; /* Adjusts the size of h1 */
+    color: #4CAF50; /* Changes the color of h1 to green */
+}
+
+/* Adding size adjustments for h2 */
+h2 {
+    font-size: 24px; /* Adjusts the size of h2 */
+    color: #FF5722; /* Changes the color of h2 to orange */
+}
+
+/* Navigation Styling */
+nav ul {
+    background: #333;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Making one page (e.g., the About page) have a unique layout */
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-content img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* Styling the unordered list */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Making links stand out */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for paragraph text */
+section p {
+    font-size: 18px; /* Adjusts the font size of paragraphs */
+    line-height: 1.6; /* Adds spacing between lines */
+    color: #333; /* Sets a dark text color */
+}
+
+/* Styling for footer */
+footer p {
+    font-size: 14px; /* Adjusts the font size */
+    color: #888; /* Sets a medium gray color for footer text */
+    text-align: center; /* Centers the text */
+}
